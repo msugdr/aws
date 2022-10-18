@@ -179,3 +179,8 @@ div.code{
 	text-align:left;
 	font-size:0.8rem;
 }
+@media screen and (max-width:480px) {
+	iframe{
+		width:400;
+	}
+}
