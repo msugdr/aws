@@ -179,8 +179,14 @@ div.code{
 	text-align:left;
 	font-size:0.8rem;
 }
-@media screen and (max-width:480px) {
-	iframe{
-		width:400;
+    iframe{
+		width:600px;
+		height:480px;
 	}
+  @media screen and (max-width:480px) {
+	iframe{
+		width:300px;
+		height:240px;
+	}
+  }
 }
